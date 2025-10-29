@@ -22,7 +22,7 @@ arquivos/
 └── textos/
 ```
 
-- Returns HTTP responses (`200 OK`, `404 Not Found`, etc.).
+- Returns HTTP responses (`200 OK`, `404 Not Found`).
 - Works directly in any web browser (e.g., http://localhost:8080).
 
 ### `http_client.c`
