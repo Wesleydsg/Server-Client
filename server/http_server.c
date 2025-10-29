@@ -131,7 +131,7 @@ int main(){
         }
 
         if(strcmp(path, "/") == 0)
-            strcpy(path, "/Kermit.gif");
+            strcpy(path, "/index.html");
 
         // Full path summurize
         const char* subfolder = getFolderType(path);
