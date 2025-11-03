@@ -11,8 +11,6 @@
 #define BUFFER_SIZE 4096
 #define ROOT_DIR "./arquivos"
 
-// https://andy2903-alp.medium.com/criando-um-servidor-http-simples-em-c-8fcaf5d794c3
-
 const char* getMimeType(const char* path){
     if(strstr(path, ".html")) return "text/html";
     if(strstr(path, ".css")) return "text/css";
